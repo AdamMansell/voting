@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voting</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1 id="title">Voting</h1>
+    </div>
+    <form id="formOne">
+    <div class="form-group">
+      <label for="age"> Enter your age</label>
+      <input id="age"  type="text">
+    </div>
+    <button type="submit" class="btn btn-danger">Submit</button>
+
+    </form>
+    <!-- minor div with p -->
+    <div id="minor">
+      <h3><u>Access Denied</u></h3>
+      <p>you are too young to vote click <a href="https://www.usa.gov/voter-registration-age-requirements"> Here</a></p>
+    </div>
+    <!-- adult div with p -->
+    <div id="adult">
+      <h3><u>Access Granted</u></h3>
+      <p>Click <a href="https://vote.gov/"> Here</a> to vote!</p>
+      <p>Nearest Polling Location: Portland, OR.</p>
+      <p>Next Election: November</p>
+    </div>
+  </div>
+</body>
+</html>
